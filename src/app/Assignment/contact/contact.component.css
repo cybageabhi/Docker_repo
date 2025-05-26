@@ -1,0 +1,22 @@
+.container {
+    background-color: #e1b12c;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    display: flex; 
+    justify-content: center;
+ align-items: center;
+ border-radius: 50px; 
+  }
+  .left{
+    color: white;
+  }
+  

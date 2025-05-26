@@ -1,0 +1,83 @@
+<!-- your-component.component.html -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My-Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about-me">About-me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/my-projects">My-Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/my-skills">My-Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+
+<!-- your-component.component.html -->
+<div class="container">
+    <div class="section">
+        <div class="left">
+            <!-- <div class="name">Name: Soham Sarde</div> -->
+            <div class="date">Todays Date: {{ dob | date:'dd/MM/yyyy' }}</div>
+
+            <!-- Angular Contact Form -->
+            <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" [(ngModel)]="formData.name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" [(ngModel)]="formData.email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" [(ngModel)]="formData.message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <div class="right">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqu0WyTGW6YDgy11QP_2ra37-NwbDACt5u6L3mFvhbLw&s" alt="">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<!-- <ul> 
+    <table border="2">
+        
+    </table>
+</ul> -->
+
+ 
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">name</th>
+        <th scope="col">age</th>
+        <th scope="col">designation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Use *ngFor to loop through employee data -->
+      <tr *ngFor="let emp of employee" scope="row">
+        <td>{{emp.name}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.designation}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  
+  

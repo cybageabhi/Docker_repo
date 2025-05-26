@@ -1,0 +1,8 @@
+<div >
+    <li *ngFor="let item of items" class="{{lis}}" id={{item.id}}>
+     {{item.product_name}}- {{item.price}}-{{item.id}}
+    <button (click)="onchange(item.id)">Save</button>
+    </li>
+
+
+</div>

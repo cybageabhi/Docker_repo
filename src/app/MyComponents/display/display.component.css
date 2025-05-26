@@ -1,0 +1,30 @@
+.liEle, .liEleChange {
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  .liEle {
+    background-color: rgb(218, 132, 132);
+  }
+
+  .liEleChange {
+    background-color: rgb(19, 233, 55);
+  }
+
+  button {
+    padding: 6px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }

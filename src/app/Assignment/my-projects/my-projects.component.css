@@ -1,0 +1,128 @@
+/* my-projects.component.css
+.my-projects {
+    padding: 50px 0;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
+   */
+
+
+   /* navbar.component.css */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:black;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: black;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007BFF;
+  }
+  
+  .form-control {
+    border: 1px solid #ccc;
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+
+  /* my-projects.component.css */
+.my-projects {
+    padding: 50px 0;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #007BFF;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    /* background-color: ; */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
+  

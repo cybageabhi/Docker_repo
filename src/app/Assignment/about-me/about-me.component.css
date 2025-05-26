@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: stretch; */
+}
+.left{
+    margin-top: 100px;
+    text-align: center;
+}
+#image{
+    margin-top: 100px;
+  width: 500px;
+  height: 400px;
+  border-radius: 50px;
+
+}
+.info{
+    margin-left: 200px;
+    text-align: justify;
+}
